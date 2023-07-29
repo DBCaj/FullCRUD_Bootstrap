@@ -1,29 +1,11 @@
 Important Files:
 
 
-resources/css/app.css
+public/assets/css/style.css
 
-resources/views/components/list-table.blade.php
+resources/views/components/*
 
-resources/views/components/bootstrap-styles.blade.php
-
-resources/views/components/bootstrap-scripts.blade.php
-
-resources/views/components/add-form.blade.php
-
-resources/views/components/edit-form.blade.php
-
-resources/views/components/delete-icon.blade.php
-
-resources/views/components/list-table.blade.php
-
-resources/views/components/navbar.blade.php
-
-resources/views/layouts/addForm.blade.php
-
-resources/views/layouts/editForm.blade.php
-
-resources/views/layouts/main.blade.php
+resources/views/layouts/*
 
 database/seeders/DatabaseSeeder.php
 
