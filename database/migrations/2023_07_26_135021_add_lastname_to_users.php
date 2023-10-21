@@ -11,9 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
+      if(!Schema::hasColumn('users', 'lastname'))
+      {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('lastname')->after('firstname')->n;
+            $table->string('lastname')->nullable()->after('firstname');
         });
+      }
     }
 
     /**
